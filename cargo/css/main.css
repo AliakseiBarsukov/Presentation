@@ -1,0 +1,157 @@
+/* 
+font-family: 'Roboto', sans-serif;
+ */
+
+ * {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 90%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+ body {
+    font-family:'Roboto', sans-serif;
+ }
+
+.nav-wrapper {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: rgb(241, 241, 241);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.social-icons {
+    padding-top: 5px;
+    margin-left: 10px;
+    width: 40px;
+}
+
+.phone__number {
+   text-align: right;
+   line-height: 10px;
+   font-size: 20px;
+   padding-top: 7px;
+
+}
+
+.phone__number p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #793232
+}
+
+.phone__button {
+    background-color: #f72464;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 1;
+    height: 50px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 5px 30px rgba(37, 32, 31, 0.445);
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+.phone__button:hover {
+    background-color: #c9184d;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 5px 30px rgba(31, 35, 37, 0.7);
+}
+
+/* Navigation */
+
+.row-space-between {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header { 
+    padding-top: 100px;  
+}
+
+.container__title {
+    padding-top: 70px;
+    width: 600px;
+}
+
+.header__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 55px;
+}
+
+.header__description {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.carousel {
+    padding-top: 30px;
+}
+
+.title {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    padding-bottom: 70px;
+
+}
+
+.feature__box {
+    align-content: center;
+}
+
+.title__img {
+    align-content: center;
+    width: 70px;
+    height: 70px;
+}
+
+.feature__box p {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+.info__bottom {
+    background-color: rgb(158, 158, 158);
+}
+
+.row__footer {
+    color: rgb(51, 50, 50);
+}
+
+.ip__title {
+    text-align: center;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+
+.ip__title p {
+    margin: 0;
+    font-size: 12px;
+}
+

@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.haeder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+  border-bottom: 2px solid rgb(206, 200, 200);
+}
+.links {
+  text-decoration: none;
+  color: rgb(87, 65, 65);
+  font-size: 24px;
+}
+.myName{
+  font-size: 36px;
+}
+.myProject {
+  font-size: 28px;
+}
+.project__list{
+  width: 400px;
+}
+.title__project {
+  padding-left: 20px;
+  font-size: 20px;
+}
+.project{
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(207, 200, 200);
+  padding-top: 20px;
+}
+

@@ -86,7 +86,7 @@ body {
     width: 389px;
     background-color: #fff;
     border-radius: 50%;
-    background-image: url(./../img/avatar2.jpg);
+    background-image: url(./../img/avatar.jpg);
     background-repeat: no-repeat;
     background-position: center top -10px;
     border: 13px solid #fff;
@@ -110,11 +110,14 @@ body {
 }
 
 .features-imege {
-    display: block;
+    display: flex;
+    
     margin-bottom: 30px;
+    
 }
 
 .features-title {
+
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
@@ -123,23 +126,17 @@ body {
 }
 
 .features-text {
+    padding-left: 20px;
+}
+
+.skill-text {
     font-weight: normal;
     font-size: 16px;
-    line-height: 15px;
+    line-height: 25px;
     margin: 0;
     color: rgb(160, 156, 156);
 }
 
-.skill-text::before {
-    content: "";
-    width: 5px;
-	height: 5px;
-	background-color: rgb(160, 156, 156);
-    display: inline-block;
-    vertical-align: middle;
-    border-radius: 50px;
-    margin-right: 10px;
-}
 /* projects */
  
 .section-preference {
@@ -223,8 +220,7 @@ text-decoration: underline;
         width: 300px;
         height: 300px;
         border-width: 10px;
-        background-size: contain;
-        background-position: center top;
+        background-position: center top -50px;
     }
 }
 
@@ -258,16 +254,15 @@ text-decoration: underline;
 
 @media (max-width: 564px) {
     .hero {
-        padding-top: 5px;
-        
-        padding-bottom: 20px;
+        padding-bottom: 75px;
     }
     .hero-avatar {
-        width: 113px;
-        height: 113px;
-        border-width: 4px;
+        width: 150px;
+        height: 150px;
+        border-width: 6px;
         background-size: contain;
         background-position: center top;
+        background-size: cover;
     }
     .hero-header {
         padding-top: 38px;
